@@ -21,3 +21,34 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# React
+/node_modules
+/.pnp
+.pnp.js
+/build
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage
+/coverage
+
+# Env files
+.env
+.env.*.local
+
+# Python virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Backend dependencies (if using Python)
+backend/__pycache__/
+backend/*.pyc
+
+# VSCode settings (optional)
+.vscode/

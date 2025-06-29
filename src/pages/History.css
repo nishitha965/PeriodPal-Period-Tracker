@@ -1,0 +1,22 @@
+.table-wrapper {
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.history-table th,
+.history-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.history-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}

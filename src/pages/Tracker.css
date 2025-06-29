@@ -1,0 +1,119 @@
+.tracker-container {
+  max-width: 650px;
+  margin: auto;
+  background-color: #fff0f3;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(128, 0, 0, 0.2);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h2 {
+  color: maroon;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.tracker-form label {
+  font-weight: 500;
+  color: maroon;
+  display: block;
+  margin: 10px 0 5px;
+}
+
+input[type="date"],
+textarea,
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid maroon;
+  border-radius: 5px;
+}
+
+.dropdown-wrapper {
+  margin: 10px 0;
+}
+
+.dropdown-toggle {
+  background-color: maroon;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.dropdown-list {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #ffe4e1;
+  border-radius: 8px;
+  border: 1px solid maroon;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.dropdown-list label {
+  display: block;
+  margin: 4px 0;
+}
+
+.custom-symptom {
+  display: flex;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.custom-symptom input {
+  flex: 1;
+}
+
+.add-btn {
+  background-color: maroon;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.selected-symptoms {
+  margin-top: 10px;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.mood-slider-wrapper {
+  margin-top: 10px;
+}
+
+.mood-slider {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.slider {
+  flex: 1;
+  accent-color: maroon;
+}
+
+button[type="submit"] {
+  background-color: maroon;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button[type="submit"]:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
