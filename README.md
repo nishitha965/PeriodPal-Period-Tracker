@@ -1,37 +1,34 @@
+## PERIODPAL
 PeriodPal is a full-stack menstrual tracking application that empowers users to understand and manage their menstrual health through intuitive features and AI-driven insights.
 
-##Overview
+##  Overview
 PeriodPal allows users to log and track their menstrual cycles, moods, and symptoms, and provides visual insights and health recommendations. The app is designed to be simple, engaging, and informative, focusing on personalized health support.
 
-##Key Features
+##  Key Features
 
-#Cycle Tracker
+-Cycle Tracker
 Log daily symptoms, moods, and flow intensity to monitor your cycle with ease.
 
-#Calendar View
+-Calendar View
 Visualize period patterns with a monthly calendar that highlights tracked entries and cycle phases.
 
-#Historical Data & Insights
+-Historical Data & Insights
 Access past logs and gain meaningful trends through charts, showing changes in mood, symptoms, and period flow over time.
 
-#AI-Based PMS Prediction
+-AI-Based PMS Prediction
 Leverages a machine learning model to predict potential PMS days based on past entries, offering proactive care tips.
 
-#Notifications & Reminders
+-Notifications & Reminders
 Receive timely alerts about upcoming cycles, wellness suggestions, and mood-based health tips.
 
-#Self-Care Recommendations
+-Self-Care Recommendations
 Get personalized cycle-based self-care suggestions to better manage physical and emotional well-being.
 
-#Tech Stack
+-Tech Stack
 Frontend: React, CSS
-
 Backend: Node.js, Flask
-
 Database: MongoDB
-
 Machine Learning: Custom model for PMS prediction
-
 
 # Getting Started with Create React App
 
